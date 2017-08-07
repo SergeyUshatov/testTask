@@ -1,0 +1,45 @@
+package model
+
+class User {
+    float id
+    String id_str
+    String name
+    String screen_name
+    String location
+    String description
+    String url
+    Entities entities
+    boolean Protected
+    int followers_count
+    int friends_count
+    int listed_count
+    String created_at
+    int favourites_count
+    int utc_offset
+    String time_zone
+    boolean geo_enabled
+    boolean verified
+    int statuses_count
+    String lang
+    boolean contributors_enabled
+    boolean is_translator
+    boolean is_translation_enabled
+    String profile_background_color
+    String profile_background_image_url
+    String  profile_background_image_url_https
+    boolean profile_background_tile
+    String profile_image_url
+    String profile_image_url_https
+    String profile_link_color
+    String profile_sidebar_border_color
+    String profile_sidebar_fill_color
+    String  profile_text_color
+    boolean profile_use_background_image
+    boolean has_extended_profile
+    boolean default_profile
+    boolean default_profile_image
+    boolean following
+    boolean  follow_request_sent
+    boolean  notifications
+    String translator_type
+}
